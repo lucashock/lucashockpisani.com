@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luca Shock Pisani — DJ & Producer. House & Disco Sets. Modena, Italy. Booking & Music." />
+  <meta property="og:title" content="Luca Shock Pisani — Feel the Atmosphere" />
+  <meta property="og:description" content="DJ & Producer based in Modena, Italy. House · Disco · Urban." />
+  <title>Luca Shock Pisani — Feel the Atmosphere</title>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎧</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,300;0,400;0,700;0,800;0,900;1,700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- ══════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════ -->
+  <nav id="navbar" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo">
+      LUCA <span class="shock">SHOCK</span> PISANI
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#about">Bio</a></li>
+      <li><a href="#music">Music</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#events">Live</a></li>
+      <li><a href="#instagram">Feed</a></li>
+      <li><a href="#social">Social</a></li>
+      <li><a href="#events" class="nav-booking">Booking</a></li>
+    </ul>
+
+    <button class="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile nav -->
+  <div class="mobile-nav" role="dialog" aria-modal="true">
+    <a href="#about">Bio</a>
+    <a href="#music">Music</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#events">Live</a>
+    <a href="#social">Social</a>
+    <a href="#events" style="color:var(--yellow)">Booking</a>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════ -->
+  <section id="hero" aria-label="Hero">
+    <div class="hero-photo" aria-hidden="true"></div>
+    <div class="hero-vignette" aria-hidden="true"></div>
+    <div class="hero-glow"    aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-tag">House / Disco &amp; Urban touch &nbsp;·&nbsp; Modena, Italy</div>
+
+      <div class="vinyl-wrap" aria-hidden="true">
+        <div class="vinyl"></div>
+        <span class="vinyl-emoji">⚡</span>
+      </div>
+
+      <!-- Name — Bebas Neue, mirrors logo hierarchy -->
+      <h1 class="hero-name">
+        LUCA <span class="shock-bar">SHOCK</span> PISANI
+      </h1>
+
+      <!-- Slogan -->
+      <p class="hero-slogan"><em>Feel the Atmosphere</em></p>
+
+      <!-- CTA -->
+      <div class="hero-cta">
+        <a href="#music" class="btn btn-y">
+          <i class="fas fa-play"></i> Listen
+        </a>
+        <a href="#events" class="btn btn-o">
+          <i class="fas fa-envelope"></i> Booking
+        </a>
+      </div>
+    </div>
+
+    <div class="scroll-hint" aria-hidden="true">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       TICKER #1
+  ══════════════════════════════════════════ -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-inner">
+      <!-- Duplicated for seamless loop -->
+      <span>FEEL THE ATMOSPHERE</span>
+      <span>HOUSE</span>
+      <span>DISCO</span>
+      <span>MODENA</span>
+      <span>LUCA SHOCK PISANI</span>
+      <span>FEEL THE ATMOSPHERE</span>
+      <span>HOUSE</span>
+      <span>DISCO</span>
+      <span>MODENA</span>
+      <span>LUCA SHOCK PISANI</span>
+      <span>FEEL THE ATMOSPHERE</span>
+      <span>HOUSE</span>
+      <span>DISCO</span>
+      <span>MODENA</span>
+      <span>LUCA SHOCK PISANI</span>
+      <span>FEEL THE ATMOSPHERE</span>
+      <span>HOUSE</span>
+      <span>DISCO</span>
+      <span>MODENA</span>
+      <span>LUCA SHOCK PISANI</span>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ══════════════════════════════════════════
+       BIO / ABOUT
+  ══════════════════════════════════════════ -->
+  <section id="about" aria-label="Biography">
+    <div class="section-inner">
+      <div class="about-grid">
+
+        <!-- Photo -->
+        <div class="about-img rv">
+          <div class="about-img-frame">
+            <img src="imgs/LSP_bio.jpg" alt="Luca Shock Pisani live" loading="lazy" />
+          </div>
+          <div class="about-venue">@ That's Gilda · Modena</div>
+        </div>
+
+        <!-- Text -->
+        <div class="about-text">
+          <p class="s-label rv">— About</p>
+          <h2 class="s-title rv">
+            Every set is<br>a <span class="y">journey</span>
+          </h2>
+
+          <p class="rv d1">
+            <strong>Luca Shock Pisani</strong> is an Italian DJ and producer based in Modena, Italy.
+            With over <span class="hl">15 years of experience</span> across clubs, festivals and live events, his sound moves
+            between <span class="hl">house, disco and urban</span> — a selection that is never
+            planned in advance, always inspired by the moment and the energy of the room.
+          </p>
+
+          <p class="rv d2">
+            Among his notable performances: he opened for
+            <strong>Enrique Iglesias</strong> at the <strong>Unipol Arena, Bologna</strong> (2017),
+            played the official <strong>after party of Cesare Cremonini's Stadio Dall'Ara concert</strong>
+            in Bologna, and held a <strong>four-year residency</strong> at Modena's White Night —
+            one of the city's most iconic annual events.
+          </p>
+
+          <p class="rv d3">
+            More than a DJ, Luca is a curator of emotions. His sets are built around a single idea:
+            that music, at its best, <span class="hl">occupies every sense until there is nothing
+            left but the present moment.</span>
+            That rare feeling of being completely here — that is what he plays for.
+          </p>
+
+          <p class="rv d4" style="font-size:.88rem; color:var(--white-dim);">
+            Alongside his DJ career, he works as a music producer, beatmaker and
+            mixing &amp; mastering engineer under the name <strong style="color:var(--white)">Pulpy Beats</strong>.
+          </p>
+
+          <!-- Stats — solo 2 numeri forti -->
+          <div class="about-stats rv" style="grid-template-columns:repeat(2,1fr);">
+            <div>
+              <div class="stat-n">15+</div>
+              <div class="stat-l">Years behind<br>the decks</div>
+            </div>
+            <div>
+              <div class="stat-n">300+</div>
+              <div class="stat-l">Live<br>performances</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ══════════════════════════════════════════
+       MUSIC
+  ══════════════════════════════════════════ -->
+  <section id="music" aria-label="Music">
+    <div class="section-inner">
+
+      <p class="s-label rv">— Music</p>
+      <h2 class="s-title rv">
+        The <span class="y">sound</span>
+      </h2>
+
+      <p class="music-intro rv d1">
+        Edits, reworks and live sets available on SoundCloud and YouTube.
+        Original releases under Luca Shock Pisani coming soon.
+      </p>
+
+      <!-- SoundCloud embed -->
+      <div class="sc-embed rv d2">
+        <iframe
+          width="100%" height="300"
+          scrolling="no" frameborder="no" allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/lucashock&color=%23EECD0D&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          title="Luca Shock Pisani on SoundCloud"
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <!-- Platform links -->
+      <div class="platform-row rv d3">
+
+        <a href="https://soundcloud.com/lucashock" target="_blank" rel="noopener" class="platform-btn" aria-label="SoundCloud">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M11.56 8.87V17h8.76c1.13-.02 2-.95 2-2.07a2.04 2.04 0 0 0-1.9-2.07 2.44 2.44 0 0 0-1.7-3.36 3.43 3.43 0 0 0-6.82-.02c-.1.03-.2.06-.3.1a2.98 2.98 0 0 0-.04-.71zM0 15c0 1.1.9 2 2 2s2-.9 2-2V12c0-1.1-.9-2-2-2s-2 .9-2 2v3zm4.5 1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5V10c0-.83-.67-1.5-1.5-1.5S4.5 9.17 4.5 10v6.5zm3 .5c0 .55.45 1 1 1s1-.45 1-1V9.5c0-.55-.45-1-1-1s-1 .45-1 1V17zm3 0c0 .55.45 1 1 1s1-.45 1-1V10c0-.55-.45-1-1-1s-1 .45-1 1v7z"/></svg>
+          SoundCloud
+        </a>
+
+        <a href="https://www.youtube.com/@LucaShockPisani" target="_blank" rel="noopener" class="platform-btn" aria-label="YouTube">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          YouTube
+        </a>
+
+        <a class="platform-btn soon" aria-label="Spotify coming soon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+          Spotify
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TICKER #2 -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-inner">
+      <span>FEEL THE ATMOSPHERE</span>
+      <span>HOUSE</span>
+      <span>DISCO</span>
+      <span>MODENA</span>
+      <span>LUCA SHOCK PISANI</span>
+      <span>FEEL THE ATMOSPHERE</span>
+      <span>HOUSE</span>
+      <span>DISCO</span>
+      <span>MODENA</span>
+      <span>LUCA SHOCK PISANI</span>
+      <span>FEEL THE ATMOSPHERE</span>
+      <span>HOUSE</span>
+      <span>DISCO</span>
+      <span>MODENA</span>
+      <span>LUCA SHOCK PISANI</span>
+      <span>FEEL THE ATMOSPHERE</span>
+      <span>HOUSE</span>
+      <span>DISCO</span>
+      <span>MODENA</span>
+      <span>LUCA SHOCK PISANI</span>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ══════════════════════════════════════════
+       GALLERY
+  ══════════════════════════════════════════ -->
+  <section id="gallery" aria-label="Photo gallery">
+    <div class="section-inner">
+
+      <p class="s-label rv">— Gallery</p>
+      <h2 class="s-title rv">
+        Live &amp; <span class="y">behind</span> the decks
+      </h2>
+
+      <div class="gallery-header">
+        <p class="gallery-intro rv d1">
+          Moments captured between the console, the lights and the dancefloor.
+        </p>
+        <a class="btn-presskit rv d2" aria-label="Press Kit — work in progress" tabindex="-1">
+          <i class="fas fa-download"></i> Download Press Kit
+        </a>
+      </div>
+
+      <!-- Gallery slider — 3 foto per slide -->
+      <div class="gallery-slider rv d2" id="gallery-slider">
+        <div class="gallery-track" id="gallery-track">
+
+          <!-- Slide 1: I momenti più grandi — massima credibilità immediata -->
+          <div class="gallery-slide">
+            <div class="g-item" data-caption="Opening for Enrique Iglesias · Unipol Arena, Bologna 2017" tabindex="0" role="button" aria-label="Open photo">
+              <img src="imgs/LSP_gallery_enrique.jpg" alt="Unipol Arena Bologna — Enrique Iglesias" loading="lazy" />
+              <div class="g-overlay"><span class="g-caption">Opening · Unipol Arena, Bologna 2017</span><span class="g-zoom"><i class="fas fa-expand"></i></span></div>
+            </div>
+            <div class="g-item" data-caption="White Night · Modena — 4 years residency" tabindex="0" role="button" aria-label="Open photo">
+              <img src="imgs/LSP_gallery_whitenightcrowd.jpg" alt="White Night Modena — crowd" loading="lazy" />
+              <div class="g-overlay"><span class="g-caption">White Night · Modena</span><span class="g-zoom"><i class="fas fa-expand"></i></span></div>
+            </div>
+            <div class="g-item" data-caption="White Night · Modena" tabindex="0" role="button" aria-label="Open photo">
+              <img src="imgs/LSP_gallery_whitenightstage.jpg" alt="White Night Modena — stage" loading="lazy" />
+              <div class="g-overlay"><span class="g-caption">White Night · Modena</span><span class="g-zoom"><i class="fas fa-expand"></i></span></div>
+            </div>
+          </div>
+
+          <!-- Slide 2: Club — atmosfera, luci, energia -->
+          <div class="gallery-slide">
+            <div class="g-item" data-caption="@ That's Gilda · Modena" tabindex="0" role="button" aria-label="Open photo">
+              <img src="imgs/LSP_gallery_bluered.jpg" alt="That's Gilda Modena" loading="lazy" />
+              <div class="g-overlay"><span class="g-caption">@ That's Gilda · Modena</span><span class="g-zoom"><i class="fas fa-expand"></i></span></div>
+            </div>
+            <div class="g-item" data-caption="@ Ritmo Gilda · Modena" tabindex="0" role="button" aria-label="Open photo">
+              <img src="imgs/LSP_gallery_teal.jpg" alt="Ritmo Gilda Modena" loading="lazy" />
+              <div class="g-overlay"><span class="g-caption">@ Ritmo Gilda · Modena</span><span class="g-zoom"><i class="fas fa-expand"></i></span></div>
+            </div>
+            <div class="g-item" data-caption="@ Tube Club" tabindex="0" role="button" aria-label="Open photo">
+              <img src="imgs/LSP_gallery_tubeclub.jpg" alt="Tube Club" loading="lazy" />
+              <div class="g-overlay"><span class="g-caption">@ Tube Club</span><span class="g-zoom"><i class="fas fa-expand"></i></span></div>
+            </div>
+          </div>
+
+          <!-- Slide 3: Behind the decks — intimo, tecnico, artigianale -->
+          <div class="gallery-slide">
+            <div class="g-item" data-caption="@ That's Gilda · Modena" tabindex="0" role="button" aria-label="Open photo">
+              <img src="imgs/LSP_gallery_mixer.jpg" alt="That's Gilda — mixer" loading="lazy" />
+              <div class="g-overlay"><span class="g-caption">@ That's Gilda · Modena</span><span class="g-zoom"><i class="fas fa-expand"></i></span></div>
+            </div>
+            <div class="g-item" data-caption="White Night · Modena" tabindex="0" role="button" aria-label="Open photo">
+              <img src="imgs/LSP_gallery_whitenightconsole.jpg" alt="White Night — console" loading="lazy" />
+              <div class="g-overlay"><span class="g-caption">White Night · Modena</span><span class="g-zoom"><i class="fas fa-expand"></i></span></div>
+            </div>
+            <div class="g-item" data-caption="@ Ritmo Gilda · Modena" tabindex="0" role="button" aria-label="Open photo">
+              <img src="imgs/LSP_gallery_console.jpg" alt="Ritmo Gilda — console" loading="lazy" />
+              <div class="g-overlay"><span class="g-caption">@ Ritmo Gilda · Modena</span><span class="g-zoom"><i class="fas fa-expand"></i></span></div>
+            </div>
+          </div>
+
+        </div><!-- /gallery-track -->
+      </div><!-- /gallery-slider -->
+
+      <!-- Slider controls -->
+      <div class="slider-controls">
+        <div class="slider-dots" id="slider-dots">
+          <button class="slider-dot active" data-slide="0" aria-label="Slide 1"></button>
+          <button class="slider-dot" data-slide="1" aria-label="Slide 2"></button>
+          <button class="slider-dot" data-slide="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="slider-arrows">
+          <button class="slider-btn" id="slider-prev" aria-label="Previous" disabled>
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="slider-btn" id="slider-next" aria-label="Next">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+      <button class="lb-close" aria-label="Close"><i class="fas fa-times"></i></button>
+      <button class="lb-prev"  aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+      <button class="lb-next"  aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+      <div class="lb-wrap">
+        <div class="lb-img-box">
+          <img src="" alt="" id="lb-img" />
+        </div>
+        <p class="lb-cap"  id="lb-cap"></p>
+        <p class="lb-count" id="lb-count"></p>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ══════════════════════════════════════════
+       EVENTS / BOOKING
+  ══════════════════════════════════════════ -->
+  <section id="events" aria-label="Live dates and booking">
+    <div class="section-inner">
+
+      <p class="s-label rv">— Live</p>
+      <h2 class="s-title rv">
+        Residency &amp; <span class="y">Booking</span>
+      </h2>
+
+      <div class="events-grid">
+
+        <!-- Left: Residency -->
+        <div>
+          <div class="residency-card rv d1">
+            <div class="res-venue">That's Gilda</div>
+            <div class="res-detail">Modena, Italy &nbsp;·&nbsp; Bi-weekly residency</div>
+            <p class="res-desc">
+              Resident DJ at one of Modena's most dynamic club venues.
+              Every two weeks — house, disco and urban sounds from open to close.
+            </p>
+            <span class="res-tag">Ongoing residency</span>
+          </div>
+
+          <div class="available-box rv d2">
+            <div class="avail-title">Available for</div>
+            <div class="avail-tags">
+              <span class="avail-tag">Club nights</span>
+              <span class="avail-tag">Festivals</span>
+              <span class="avail-tag">Open air</span>
+              <span class="avail-tag">Private events</span>
+              <span class="avail-tag">Corporate</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Booking form -->
+        <div class="rv d2">
+          <div class="booking-card">
+            <h3>Get in touch</h3>
+            <p>Interested in booking? Fill in the form and I'll get back to you within 48 hours.</p>
+
+            <!-- ACTION: replace with your Formspree URL -->
+            <form id="booking-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="f-name">Name / Organisation *</label>
+                  <input type="text" id="f-name" name="name" placeholder="Club Milano" required />
+                </div>
+                <div class="form-group">
+                  <label for="f-email">Email *</label>
+                  <input type="email" id="f-email" name="email" placeholder="booking@venue.com" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="f-type">Event type *</label>
+                  <select id="f-type" name="event_type" required>
+                    <option value="" disabled selected>Select…</option>
+                    <option>Club night</option>
+                    <option>Festival / Open air</option>
+                    <option>Private event</option>
+                    <option>Corporate</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="f-date">Preferred date</label>
+                  <input type="date" id="f-date" name="event_date" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="f-notes">Notes</label>
+                <textarea id="f-notes" name="notes" placeholder="Set duration, location, any other details…"></textarea>
+              </div>
+
+              <!-- Hidden fields for Formspree -->
+              <input type="hidden" name="_subject" value="Booking request — Luca Shock Pisani" />
+              <input type="hidden" name="_replyto" value="lucapisanimusic@gmail.com" />
+
+              <button type="submit" class="btn btn-y" style="width:100%;justify-content:center;">
+                Send request &nbsp;<i class="fas fa-paper-plane"></i>
+              </button>
+
+            </form>
+
+            <div class="form-success" id="form-success">
+              <div class="check">✅</div>
+              <p>Message sent!</p>
+              <small>I'll get back to you within 48 hours.</small>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ══════════════════════════════════════════
+       INSTAGRAM FEED
+  ══════════════════════════════════════════ -->
+  <section id="instagram" aria-label="Instagram feed">
+    <div class="section-inner">
+
+      <p class="s-label rv">— Instagram</p>
+      <h2 class="s-title rv">
+        Stay <span class="y">updated</span>
+      </h2>
+      <p class="ig-intro rv d1">
+        Live moments, behind the scenes and new music — directly from the feed.
+      </p>
+
+      <!-- Elfsight Instagram Feed widget — free, no login required -->
+      <!-- Replace data-elfsight-app-id with your widget ID after creating at elfsight.com -->
+      <div class="ig-embed-wrap rv d2">
+        <div style="background:var(--dark-2);padding:2.5rem;text-align:center;border-radius:2px;">
+          <p style="font-family:var(--fd);font-size:0.75rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--white-dim);margin-bottom:1rem;">
+            Instagram feed — configure widget after deploy
+          </p>
+          <p style="font-family:var(--fd);font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--yellow);opacity:.6;">
+            elfsight.com → Instagram Feed → paste script here
+          </p>
+        </div>
+      </div>
+
+      <a href="https://www.instagram.com/lucashockpisani/" target="_blank" rel="noopener" class="ig-follow rv d3">
+        <i class="fab fa-instagram"></i> @lucashockpisani
+      </a>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ══════════════════════════════════════════
+       SOCIAL
+  ══════════════════════════════════════════ -->
+  <section id="social" aria-label="Social media">
+    <div class="section-inner narrow" style="text-align:center;margin:0 auto;">
+
+      <p class="s-label rv" style="justify-content:center;">— Follow</p>
+      <h2 class="s-title rv">
+        Find me <span class="y">online</span>
+      </h2>
+
+      <div class="social-grid">
+
+        <a href="https://www.instagram.com/lucashockpisani/" target="_blank" rel="noopener" class="social-card ig rv d1" aria-label="Instagram">
+          <span class="s-icon"><i class="fab fa-instagram"></i></span>
+          <span class="s-name">Instagram</span>
+          <span class="s-handle">@lucashockpisani</span>
+        </a>
+
+        <a href="https://www.youtube.com/@LucaShockPisani" target="_blank" rel="noopener" class="social-card yt rv d2" aria-label="YouTube">
+          <span class="s-icon"><i class="fab fa-youtube"></i></span>
+          <span class="s-name">YouTube</span>
+          <span class="s-handle">Luca Shock Pisani</span>
+        </a>
+
+        <a href="https://soundcloud.com/lucashock" target="_blank" rel="noopener" class="social-card sc rv d3" aria-label="SoundCloud">
+          <span class="s-icon"><i class="fab fa-soundcloud"></i></span>
+          <span class="s-name">SoundCloud</span>
+          <span class="s-handle">lucashock</span>
+        </a>
+
+        <a href="https://www.facebook.com/DjLucaShockPisani" target="_blank" rel="noopener" class="social-card fb rv d1" aria-label="Facebook">
+          <span class="s-icon"><i class="fab fa-facebook"></i></span>
+          <span class="s-name">Facebook</span>
+          <span class="s-handle">Luca Shock Pisani</span>
+        </a>
+
+        <a class="social-card sp soon rv d2" aria-label="Spotify coming soon">
+          <span class="s-icon"><i class="fab fa-spotify"></i></span>
+          <span class="s-name">Spotify</span>
+          <span class="s-handle">Coming soon</span>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-logo">
+      LUCA <span class="shock">SHOCK</span> PISANI
+    </div>
+
+    <ul class="footer-links">
+      <li><a href="#about">Bio</a></li>
+      <li><a href="#music">Music</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#events">Booking</a></li>
+    </ul>
+
+    <p class="footer-copy">
+      &copy; 2026 Luca Shock Pisani — All rights reserved
+      &nbsp;·&nbsp;
+      <a href="https://www.iubenda.com/privacy-policy/97110677" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-nodisplay-base iubenda-noiframe-base" title="Privacy Policy" style="color:var(--white-dim);text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#EECD0D'" onmouseout="this.style.color='rgba(240,235,225,0.5)'">Privacy Policy</a>
+      &nbsp;·&nbsp;
+      <a href="https://www.iubenda.com/privacy-policy/97110677/cookie-policy" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-nodisplay-base iubenda-noiframe-base" title="Cookie Policy" style="color:var(--white-dim);text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#EECD0D'" onmouseout="this.style.color='rgba(240,235,225,0.5)'">Cookie Policy</a>
+    </p>
+  </footer>
+
+  <!-- Iubenda Privacy & Cookie Policy -->
+  <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+
+  <script src="script.js"></script>
+</body>
+</html>

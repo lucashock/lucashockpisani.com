@@ -138,7 +138,6 @@
           <div class="about-img-frame">
             <img src="imgs/LSP_bio.jpg" alt="Luca Shock Pisani live" loading="lazy" />
           </div>
-          <div class="about-venue">@ That's Gilda · Modena</div>
         </div>
 
         <!-- Text -->
@@ -314,9 +313,9 @@
 
           <!-- Slide 2: Club — atmosfera, luci, energia -->
           <div class="gallery-slide">
-            <div class="g-item" data-caption="@ That's Gilda · Modena" tabindex="0" role="button" aria-label="Open photo">
-              <img src="imgs/LSP_gallery_bluered.jpg" alt="That's Gilda Modena" loading="lazy" />
-              <div class="g-overlay"><span class="g-caption">@ That's Gilda · Modena</span><span class="g-zoom"><i class="fas fa-expand"></i></span></div>
+            <div class="g-item" data-caption="White Night · Modena" tabindex="0" role="button" aria-label="Open photo">
+              <img src="imgs/LSP_gallery_whitenightstage.jpg" alt="White Night Modena — stage" loading="lazy" />
+              <div class="g-overlay"><span class="g-caption">White Night · Modena</span><span class="g-zoom"><i class="fas fa-expand"></i></span></div>
             </div>
             <div class="g-item" data-caption="@ Ritmo Gilda · Modena" tabindex="0" role="button" aria-label="Open photo">
               <img src="imgs/LSP_gallery_teal.jpg" alt="Ritmo Gilda Modena" loading="lazy" />
@@ -590,6 +589,59 @@
       <a href="https://www.iubenda.com/privacy-policy/97110677/cookie-policy" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-nodisplay-base iubenda-noiframe-base" title="Cookie Policy" style="color:var(--white-dim);text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#EECD0D'" onmouseout="this.style.color='rgba(240,235,225,0.5)'">Cookie Policy</a>
     </p>
   </footer>
+
+  <!-- ══════════════════════════════════════════
+       COOKIE BANNER
+  ══════════════════════════════════════════ -->
+  <div id="cookie-banner" role="dialog" aria-label="Cookie notice" style="
+    display:none;
+    position:fixed; bottom:0; left:0; right:0; z-index:999;
+    background:rgba(14,14,13,0.97);
+    backdrop-filter:blur(12px);
+    border-top:1px solid rgba(238,205,13,0.2);
+    padding:1.2rem 2rem;
+    display:flex; align-items:center; justify-content:space-between;
+    flex-wrap:wrap; gap:1rem;
+    font-family:'Barlow Condensed',sans-serif;
+  ">
+    <p style="
+      font-size:0.78rem; font-weight:400; letter-spacing:0.05em;
+      color:rgba(240,235,225,0.65); margin:0; max-width:680px; line-height:1.6;
+    ">
+      This site uses technical cookies and third-party services (Google Fonts, Font Awesome, SoundCloud, Vercel)
+      to function correctly. No profiling or advertising cookies are used.
+      <a href="https://www.iubenda.com/privacy-policy/97110677/cookie-policy"
+         target="_blank" rel="noopener"
+         style="color:#EECD0D;text-decoration:underline;margin-left:0.3rem;">
+        Cookie Policy
+      </a>
+    </p>
+    <div style="display:flex;gap:0.7rem;flex-shrink:0;">
+      <button id="cookie-reject" style="
+        font-family:'Barlow Condensed',sans-serif;
+        font-size:0.72rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase;
+        background:transparent; color:rgba(240,235,225,0.45);
+        border:1px solid rgba(240,235,225,0.15);
+        padding:0.55rem 1.2rem; border-radius:1px; cursor:pointer;
+        transition:color .25s, border-color .25s;
+      "
+      onmouseover="this.style.color='rgba(240,235,225,0.8)';this.style.borderColor='rgba(240,235,225,0.35)'"
+      onmouseout="this.style.color='rgba(240,235,225,0.45)';this.style.borderColor='rgba(240,235,225,0.15)'">
+        Close
+      </button>
+      <button id="cookie-accept" style="
+        font-family:'Barlow Condensed',sans-serif;
+        font-size:0.72rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase;
+        background:#EECD0D; color:#0A0A09;
+        border:none; padding:0.55rem 1.4rem; border-radius:1px; cursor:pointer;
+        transition:box-shadow .25s, transform .25s;
+      "
+      onmouseover="this.style.boxShadow='0 0 20px rgba(238,205,13,0.45)'"
+      onmouseout="this.style.boxShadow='none'">
+        Got it
+      </button>
+    </div>
+  </div>
 
   <!-- Iubenda Privacy & Cookie Policy -->
   <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>

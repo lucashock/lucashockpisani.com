@@ -77,7 +77,47 @@ document.addEventListener('DOMContentLoaded', () => {
     heroPhoto.style.transform = `translateY(${y}px)`;
   }, { passive: true });
 
-  /* ── GALLERY SLIDER ── */
+  /* ── COOKIE BANNER ── */
+  const banner  = document.getElementById('cookie-banner');
+  const btnOk   = document.getElementById('cookie-accept');
+  const btnNo   = document.getElementById('cookie-reject');
+
+  function dismissBanner() {
+    if (banner) {
+      banner.style.transition = 'opacity .35s ease, transform .35s ease';
+      banner.style.opacity = '0';
+      banner.style.transform = 'translateY(20px)';
+      setTimeout(() => { banner.style.display = 'none'; }, 360);
+    }
+  }
+
+  // Show only if user hasn't responded yet
+  if (!localStorage.getItem('cookieConsent')) {
+    if (banner) {
+      banner.style.display = 'flex';
+      banner.style.opacity = '0';
+      banner.style.transform = 'translateY(20px)';
+      // Slight delay so it appears after page load
+      setTimeout(() => {
+        banner.style.transition = 'opacity .45s ease, transform .45s ease';
+        banner.style.opacity = '1';
+        banner.style.transform = 'translateY(0)';
+      }, 1200);
+    }
+  } else {
+    if (banner) banner.style.display = 'none';
+  }
+
+  btnOk?.addEventListener('click', () => {
+    localStorage.setItem('cookieConsent', 'accepted');
+    dismissBanner();
+  });
+  btnNo?.addEventListener('click', () => {
+    localStorage.setItem('cookieConsent', 'rejected');
+    dismissBanner();
+  });
+
+
   const track   = document.getElementById('gallery-track');
   const slides  = track ? Array.from(track.querySelectorAll('.gallery-slide')) : [];
   const dots    = Array.from(document.querySelectorAll('.slider-dot'));

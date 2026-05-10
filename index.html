@@ -65,6 +65,7 @@
       <li><a href="#gallery">Gallery</a></li>
       <li><a href="#events">Live</a></li>
       <li><a href="#social">Social</a></li>
+      <li><a href="/links/">Links</a></li>
       <li><a href="#events" class="nav-booking">Booking</a></li>
     </ul>
 
@@ -80,6 +81,7 @@
     <a href="#gallery">Gallery</a>
     <a href="#events">Live</a>
     <a href="#social">Social</a>
+    <a href="/links/">Links</a>
     <a href="#events" style="color:var(--yellow)">Booking</a>
   </div>
 
@@ -422,43 +424,20 @@
   <section id="events" aria-label="Live dates and booking">
     <div class="section-inner">
 
-      <p class="s-label rv">— Live</p>
+      <p class="s-label rv">— Booking &amp; Live</p>
       <h2 class="s-title rv">
-        Residency &amp; <span class="y">Booking</span>
+        Get in <span class="y">touch</span>
       </h2>
 
-      <div class="events-grid">
+      <!-- Layout invertito: form sopra (largo), residency sotto -->
+      <div class="events-stack">
 
-        <!-- Left: Residency -->
-        <div>
-          <div class="residency-card rv d1">
-            <div class="res-venue">That's Gilda</div>
-            <div class="res-detail">Modena, Italy &nbsp;·&nbsp; Bi-weekly residency</div>
-            <p class="res-desc">
-              Resident DJ at one of Modena's most dynamic club venues.
-              Every two weeks — house, disco and urban sounds from open to close.
-            </p>
-            <span class="res-tag">Ongoing residency</span>
-          </div>
-
-          <div class="available-box rv d2">
-            <div class="avail-title">Available for</div>
-            <div class="avail-tags">
-              <span class="avail-tag">Club nights</span>
-              <span class="avail-tag">Festivals</span>
-              <span class="avail-tag">Open air</span>
-              <span class="avail-tag">Private events</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right: Booking form -->
-        <div class="rv d2">
+        <!-- TOP: Booking form -->
+        <div class="rv d1">
           <div class="booking-card">
-            <h3>Get in touch</h3>
+            <h3>Booking request</h3>
             <p>Interested in booking? Fill in the form and I'll get back to you within 48 hours.</p>
 
-            <!-- ACTION: replace with your Formspree URL -->
             <form id="booking-form" action="https://formspree.io/f/xgopajwb" method="POST" novalidate>
 
               <div class="form-row">
@@ -509,15 +488,35 @@
               <p>Message sent!</p>
               <small>I'll get back to you within 48 hours.</small>
             </div>
+          </div>
+        </div>
 
+        <!-- BOTTOM: Residency + Available — affiancati -->
+        <div class="residency-row rv d2">
+          <div class="residency-card">
+            <div class="res-venue">That's Gilda</div>
+            <div class="res-detail">Modena, Italy &nbsp;·&nbsp; Bi-weekly residency</div>
+            <p class="res-desc">
+              Resident DJ at one of Modena's most dynamic club venues.
+              Every two weeks — house, disco and urban sounds from open to close.
+            </p>
+            <span class="res-tag">Ongoing residency</span>
+          </div>
+
+          <div class="available-box">
+            <div class="avail-title">Available for</div>
+            <div class="avail-tags">
+              <span class="avail-tag">Club nights</span>
+              <span class="avail-tag">Festivals</span>
+              <span class="avail-tag">Open air</span>
+              <span class="avail-tag">Private events</span>
+            </div>
           </div>
         </div>
 
       </div>
     </div>
   </section>
-
-  <div class="divider"></div>
 
   <div class="divider"></div>
 

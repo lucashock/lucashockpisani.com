@@ -787,6 +787,22 @@ section { position: relative; z-index: 1; }
 /* ── EVENTS / RESIDENCY ── */
 #events { background: var(--black); }
 
+/* New layout: form on top, residency below */
+.events-stack {
+  display: flex; flex-direction: column;
+  gap: 2.5rem;
+}
+.residency-row {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+.residency-row .residency-card,
+.residency-row .available-box {
+  margin: 0;
+  height: 100%;
+}
 .events-grid {
   display: grid; grid-template-columns: 1fr 1fr; gap: 5rem;
 }
@@ -1047,6 +1063,7 @@ footer {
   .about-grid { grid-template-columns: 1fr; gap: 3rem; }
   .about-img { max-width: 320px; margin: 0 auto; }
   .events-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .residency-row { grid-template-columns: 1fr; gap: 1rem; }
   .section-inner { padding: 5rem 1.5rem; }
   .form-row { grid-template-columns: 1fr; }
 }
